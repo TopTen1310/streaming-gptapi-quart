@@ -1,5 +1,4 @@
 import asyncio
-import locale
 import logging
 import os
 import json
@@ -11,7 +10,6 @@ from quart.helpers import stream_with_context
 from log import init_logging
 
 load_dotenv()
-locale.setlocale(locale.LC_ALL, os.getenv("LOCALE", "C"))
 init_logging()
 logger = logging.getLogger(__name__)
 
