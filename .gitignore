@@ -1,0 +1,6 @@
+/env/
+/outputs/
+__pycache__/
+.coverage
+.DS_Store
+.env
