@@ -20,5 +20,5 @@ reportlab==3.6.12
 schedule==1.1.0
 six==1.16.0
 urllib3==1.26.12
-uvicorn==0.18.3
+uvicorn==0.23.2
 werkzeug==2.2.3
